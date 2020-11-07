@@ -1,0 +1,76 @@
+.fullApp {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 532.44px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 4px rgba(131, 131, 131, 0.349);
+}
+
+img {
+    height: 355px;
+}
+
+.mainImage, .title, .mainText {
+    border-top: 0; 
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    padding: 0;
+    margin: 0;
+}
+
+.mainText, .title {
+    padding: 1em;
+}
+
+label {
+    font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#playerOneIncrease, #playerTwoIncrease, #reset {
+    flex: 1;
+    padding: 1em;
+    text-align: center;
+}
+
+#playerOneIncrease {
+    background-color: rgb(1, 194, 104);
+    color: white;
+}
+
+#playerTwoIncrease {
+    background-color: rgb(33, 69, 230);
+    color: white;
+}
+
+.buttons {
+    pointer-events: auto;
+}
+
+#reset {
+    background-color: rgb(230, 33, 33);
+    color: white;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.disabled {
+    pointer-events: none;
+}
